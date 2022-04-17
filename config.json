@@ -1,0 +1,7 @@
+{
+    "channelname": "The channel which you want to get the chat",
+    "teletoken": "Your telegram bot token",
+    "twitchbotname": "Your twitch bot/extension name",
+    "oauthtoken": "Twitch bot oauth token",
+    "chatid": "Your telegram chat id"
+}
