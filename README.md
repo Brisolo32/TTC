@@ -5,10 +5,13 @@
 
 1. First off, install [Node.JS](nodejs.org/en) and create a Telegram Account (if you haven't)
 2. Download the binary for your system on the releases page
-3. Go to Telegram and search for [JsonDumpBot](https://t.me/jsondumpbot) and [TwitchTelegramChat](https://t.me/twitelchat_bot)
+3. Go to Telegram and search for [JsonDumpBot](https://t.me/jsondumpbot) and [BotFather](https://t.me/botfather)
 4. Send a message to JsonDumpBot and get your ID
-7. Create a text file in the same Directory as your executable and name it `chatId.txt`
-8. In that file put your ID in it
+    1. Create a text file in the same Directory as your executable and name it `chatId.txt`
+    2. Then put your ID in it
+6. Create a bot using Botfather (`/newbot`)
+    1. Create a file named `token.txt` 
+    2. And put your Telegram bot token
 9. Run the executable and Put the channel which you want to read messsages
 
 Happy streaming!
