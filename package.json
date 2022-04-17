@@ -1,0 +1,17 @@
+{
+  "name": "twitchtelegramchat",
+  "version": "1.0.0",
+  "description": "A Twitch chat implementation in Telegram",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Brisolo32",
+  "license": "GPL-3.0",
+  "dependencies": {
+    "dotenv": "^16.0.0",
+    "node-telegram-bot-api": "^0.56.0",
+    "tmi.js": "^1.8.5"
+  }
+}
