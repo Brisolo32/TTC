@@ -1,7 +1,9 @@
 <h1 align='center'>TTC (AKA: TwitchTelegramChat)</h1>
 <h4 align='center'>A integration of Twitch's chat into Telegram made with Node.js</h4>
 
-<h2 align='left'>How to install</h2>
+<h1 align='left'>How to install</h1>
+
+<b>WARNING: Do not use the same Telegram bot token for 2+ instances</b>
 
 1. First off, install [Node.JS](nodejs.org/en) and create a Telegram Account (if you haven't)
 2. Download the binary for your system on the releases page
