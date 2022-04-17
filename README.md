@@ -1,4 +1,4 @@
-<h1 align='center'>TwitchTelegramChat</h1>
+<h1 align='center'>TTC (AKA: TwitchTelegramChat)</h1>
 <h4 align='center'>A integration of Twitch's chat into Telegram made with Node.js</h4>
 
 <h2 align='left'>How to install</h2>
