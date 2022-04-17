@@ -6,7 +6,10 @@ const fs = require('fs');
 const prompt = require('prompt-sync')({sigint: true});
 var channel = prompt('Channel to listen for messages: ');
 
-const { twitchbotname, oauthtoken, channelname, teletoken, chatid } = require('./config.json');
+const chatId = fs.readFileSync('chatId.txt', 'utf8');
+const teletoken = fs.readFileSync('token.txt', 'utf8');
+
+const { twitchbotname, oauthtoken } = require('./config.json');
 
 const bot = new TelegramBot(teletoken, { polling: true });
 
