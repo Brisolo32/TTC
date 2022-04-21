@@ -1,3 +1,9 @@
+//	Probably will stop updating this and make it a discord bot
+//	instead. If i do make it into a discord bot it will def be
+//	better
+//		- Brisolo
+
+
 process.env.NTBA_FIX_319 = 1;
 
 const tmi = require('tmi.js');
@@ -6,15 +12,17 @@ const fs = require('fs');
 const prompt = require('prompt-sync')({sigint: true});
 var channel = prompt('Channel to listen for messages: ');
 
-const chatId = fs.readFileSync('chatId.txt', 'utf8');
-const teletoken = fs.readFileSync('token.txt', 'utf8');
+const teletoken = process.env.API_TOKEN;
+const chatId = process.env.CHAT_ID;
+const deb = process.env.DEBUG;
 
-const { twitchbotname, oauthtoken } = require('./config.json');
+var twitchbotname = 'Put your TwitchBot token here'
+var oauthtoken = 'Put your oauth token here'
 
 const bot = new TelegramBot(teletoken, { polling: true });
 
 const client = new tmi.Client({
-	options: { debug: false },
+	options: { debug: deb },
     connection: {
         reconnect: true
     },
@@ -22,7 +30,7 @@ const client = new tmi.Client({
 		username: twitchbotname,
 		password: oauthtoken
 	},
-	channels: [ channelname ]
+	channels: [ channel ]
 });
 
 client.connect();
@@ -32,5 +40,6 @@ client.once('connected', () => {
 });
 
 client.on('message', (channel, tags, message, self) => {
-    bot.sendMessage(chatid, `<b>${tags['display-name']}:</b> ${message}`,{parse_mode : "HTML"});
-});	
+    bot.sendMessage(chatId, `<b>${tags['display-name']}:</b> ${message}`,{parse_mode : "HTML"});
+});
+		
