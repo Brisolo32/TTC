@@ -6,6 +6,8 @@
 
 process.env.NTBA_FIX_319 = 1;
 
+require('dotenv').config();
+
 const tmi = require('tmi.js');
 const TelegramBot = require('node-telegram-bot-api');
 const fs = require('fs');
@@ -14,15 +16,14 @@ var channel = prompt('Channel to listen for messages: ');
 
 const teletoken = process.env.API_TOKEN;
 const chatId = process.env.CHAT_ID;
-const deb = process.env.DEBUG;
 
-var twitchbotname = 'Put your TwitchBot token here'
-var oauthtoken = 'Put your oauth token here'
+var twitchbotname = 'Your bot name'
+var oauthtoken = 'Your oauth token'
 
 const bot = new TelegramBot(teletoken, { polling: true });
 
 const client = new tmi.Client({
-	options: { debug: deb },
+	options: { debug: true },
     connection: {
         reconnect: true
     },
