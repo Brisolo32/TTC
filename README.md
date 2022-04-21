@@ -9,11 +9,11 @@
 4. Send a message to JsonDumpBot and get your ID
     1. Go into `.env` 
     2. Then put your ID in it (Example: `CHAT_ID='1234567890'`)
-6. Create a bot using Botfather
+5. Create a bot using Botfather
     1. Use `/newbot` to create a bot 
     2. Go into `.env`
     3. And put your Telegram bot token in it (Example: `API_TOKEN='1234567890:RIFJWmfoA2mfkoeoJuejfoiwnfhFHkf92jfnkns'`)
-9. Run the executable and Put the channel which you want to read messsages
+6. Run the executable and Put the channel which you want to read messsages
 
 Happy streaming!
 <br>ㅤㅤㅤㅤ-Brisolo32
