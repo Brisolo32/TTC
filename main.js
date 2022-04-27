@@ -1,4 +1,4 @@
-//	Actually just lied, making a discord bot that sends
+//  Actually just lied, making a discord bot that sends
 //  a message to a specific discord channel is hard as fuck.
 //  so yeah, I'm just going to keep updating this
 //  and I'll probably add more stuff later.
