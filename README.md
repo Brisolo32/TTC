@@ -7,7 +7,7 @@
 
 Just message [TwitchTelegramChat](t.me/twitelchat_bot) and use it!
 
-Command List:
+# Command List:
 
 | Command | Description |
 | ----------- | ----------- |
