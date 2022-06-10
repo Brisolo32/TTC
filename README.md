@@ -1,5 +1,5 @@
 <div align='center'>
-  <img height='142' width='650' src='./assets/TTCBanner.png'>  
+  <img src='./assets/TTCBanner.png'>  
 </div>
 <h4 align='center'>A integration of Twitch's chat into Telegram made with Node.js</h4>
 
