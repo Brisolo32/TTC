@@ -5,7 +5,7 @@
 
 # How do i use it?
 
-Just message [TwitchTelegramChat](t.me/twitelchat_bot) and use it!
+Just message [TwitchTelegramChat](https://t.me/twitelchat_bot) and use it!
 
 # Command List:
 
